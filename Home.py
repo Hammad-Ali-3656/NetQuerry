@@ -284,24 +284,10 @@ it provides accurate, context-based answers from your networking documentation w
 # Video Section
 st.markdown('<h2 class="section-title">Project Demo</h2>', unsafe_allow_html=True)
 
-# YouTube video embed
-video_url = st.text_input(
-    "YouTube Video URL (paste your video link here)",
-    placeholder="https://www.youtube.com/watch?v=YOUR_VIDEO_ID",
-    help="Paste your YouTube video URL here. You can update it anytime.",
-)
-
-if video_url:
-    st.markdown('<div class="video-container">', unsafe_allow_html=True)
-    try:
-        st.video(video_url)
-    except Exception as e:
-        st.error("Invalid YouTube URL. Please paste a valid YouTube link.")
-    st.markdown("</div>", unsafe_allow_html=True)
-else:
-    st.markdown('<div class="video-container">', unsafe_allow_html=True)
-    st.info("👆 Paste your YouTube video URL above to display the demo video")
-    st.markdown("</div>", unsafe_allow_html=True)
+# YouTube video embed - default video
+st.markdown('<div class="video-container">', unsafe_allow_html=True)
+st.video("https://www.youtube.com/watch?v=AVUL9Q5Vigg")
+st.markdown("</div>", unsafe_allow_html=True)
 
 # Key Features Section
 st.markdown('<h2 class="section-title">Key Features</h2>', unsafe_allow_html=True)
