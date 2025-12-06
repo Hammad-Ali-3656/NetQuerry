@@ -473,21 +473,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# CTA Section
-st.markdown("<br/><br/>", unsafe_allow_html=True)
-col1, col2, col3 = st.columns([1, 2, 1])
-with col2:
-    st.markdown(
-        """
-    <div style='text-align: center;'>
-        <a href="/Chat_Interface" target="_self" class="cta-button">
-            🚀 Try NetQuerry Now
-        </a>
-    </div>
-    """,
-        unsafe_allow_html=True,
-    )
-
 # Footer
 st.markdown("<br/><br/>", unsafe_allow_html=True)
 footer_color = "#00ff41" if st.session_state.theme == "dark" else "#667eea"
