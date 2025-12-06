@@ -125,6 +125,13 @@ def get_theme_styles(theme):
         margin: 2rem 0 1rem 0;
         text-shadow: 0 0 15px rgba(0, 255, 65, 0.5);
     }
+    
+    /* Style the Streamlit video iframe */
+    iframe[title*="video"] {
+        border: 3px solid #00ff41 !important;
+        border-radius: 12px !important;
+        box-shadow: 0 0 30px rgba(0, 255, 65, 0.4) !important;
+    }
 </style>
 """
     else:  # light theme
@@ -230,6 +237,13 @@ def get_theme_styles(theme):
         font-weight: 700;
         text-align: center;
         margin: 2rem 0 1rem 0;
+    }
+    
+    /* Style the Streamlit video iframe */
+    iframe[title*="video"] {
+        border: 3px solid #667eea !important;
+        border-radius: 12px !important;
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3) !important;
     }
 </style>
 """
