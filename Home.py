@@ -465,7 +465,7 @@ st.markdown(
             Place networking PDFs in topic folders under <code>data/</code><br/><br/>
             
             <strong>4. Run the Application:</strong><br/>
-            <code>streamlit run app.py</code>
+            <code>streamlit run Home.py</code>
         </div>
     </div>
 </div>
