@@ -108,4 +108,3 @@ NetQuerry/
 - **Built with:** [LangChain](https://www.langchain.com/), [Ollama](https://ollama.com/), [Streamlit](https://streamlit.io/), [Gemma3](https://ai.google.dev/gemma), [ChromaDB](https://www.trychroma.com/), and [PyPDF](https://pypdf.readthedocs.io/).
 - **Course:** Theory of Automata (TOAT) - NUST
 
----# NetQuerry
