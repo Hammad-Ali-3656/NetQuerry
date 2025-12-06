@@ -450,26 +450,26 @@ st.markdown('<h2 class="section-title">Getting Started</h2>', unsafe_allow_html=
 
 st.markdown(
     """
-<div style='max-width: 800px; margin: 0 auto;'>
-    <div class="feature-card">
-        <div class="feature-title">Quick Setup</div>
-        <div class="feature-text" style='line-height: 2;'>
-            <strong>1. Install Prerequisites:</strong><br/>
-            • Python 3.10+ <br/>
-            • Ollama (<code>ollama pull gemma3:4b</code> and <code>ollama pull nomic-embed-text</code>)<br/><br/>
-            
-            <strong>2. Install Dependencies:</strong><br/>
-            <code>pip install -r requirements.txt</code><br/><br/>
-            
-            <strong>3. Add Your PDFs:</strong><br/>
-            Place networking PDFs in topic folders under <code>data/</code><br/><br/>
-            
-            <strong>4. Run the Application:</strong><br/>
-            <code>streamlit run Home.py</code>
+    <div style='max-width: 800px; margin: 0 auto;'>
+        <div class="feature-card">
+            <div class="feature-title">Quick Setup</div>
+            <div class="feature-text" style='line-height: 2;'>
+                <strong>1. Install Prerequisites:</strong><br/>
+                • Python 3.10+ <br/>
+                • Ollama (<code>ollama pull gemma3:4b</code> and <code>ollama pull nomic-embed-text</code>)<br/><br/>
+                
+                <strong>2. Install Dependencies:</strong><br/>
+                <code>pip install -r requirements.txt</code><br/><br/>
+                
+                <strong>3. Add Your PDFs:</strong><br/>
+                Place networking PDFs in topic folders under <code>data/</code><br/><br/>
+                
+                <strong>4. Run the Application:</strong><br/>
+                <code>streamlit run Home.py</code>
+            </div>
         </div>
     </div>
-</div>
-""",
+    """,
     unsafe_allow_html=True,
 )
 
