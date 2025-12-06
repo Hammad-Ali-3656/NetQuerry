@@ -298,11 +298,8 @@ it provides accurate, context-based answers from your networking documentation w
 # Video Section
 st.markdown('<h2 class="section-title">Project Demo</h2>', unsafe_allow_html=True)
 
-# YouTube video embed - default video with container styling
-with st.container():
-    st.markdown('<div class="video-container">', unsafe_allow_html=True)
-    st.video("https://www.youtube.com/watch?v=AVUL9Q5Vigg")
-    st.markdown("</div>", unsafe_allow_html=True)
+# YouTube video embed
+st.video("https://www.youtube.com/watch?v=AVUL9Q5Vigg")
 
 # Key Features Section
 st.markdown('<h2 class="section-title">Key Features</h2>', unsafe_allow_html=True)
